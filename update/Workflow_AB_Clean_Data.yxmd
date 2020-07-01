@@ -1,0 +1,1009 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RoundRoastersTransactions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="SKU" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>round-roaster-stores (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>treatment-stores (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Right_State" size="254" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="402" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Invoice Date]&gt;='2015-02-06' AND [Invoice Date] &lt;= '2016-07-21'</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Invoice Date]&gt;='2015-02-06' AND [Invoice Date] &lt;= '2016-07-21'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="FLOOR(DateTimeDiff([Invoice Date],'2015-02-06','days')/7+1)" field="Week" size="8" type="Double" />
+            <FormulaField expression="DateTimeAdd('2015-02-06', 7*([Week]-1), 'days')" field="Startweek" size="10" type="Date" />
+            <FormulaField expression="DateTimeAdd([Startweek],6,'days')" field="Endweek" size="10" type="Date" />
+            <FormulaField expression="IIF([Category]='wine'|| [Category]='sandiches',1, Null())" field="NewProductFlag" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Week = FLOOR(DateTimeDiff([Invoice Date],'2015-02-06','days')/7+1)
+Startweek = D...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="810" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Invoice Number" action="GroupBy" rename="Invoice Number" />
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="Invoice Date" action="GroupBy" rename="Invoice Date" />
+            <SummarizeField field="Week" action="GroupBy" rename="Week" />
+            <SummarizeField field="Startweek" action="GroupBy" rename="Startweek" />
+            <SummarizeField field="Endweek" action="GroupBy" rename="Endweek" />
+            <SummarizeField field="Sq_Ft" action="GroupBy" rename="Sq_Ft" />
+            <SummarizeField field="AvgMonthSales" action="GroupBy" rename="AvgMonthSales" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Gross Margin" action="Sum" rename="Sum_Gross Margin" />
+            <SummarizeField field="NewProductFlag" action="CountDistinctNonNull" rename="CountDistinctNonNull_NewProductFlag" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sq_Ft" selected="True" type="Int64" size="8" />
+            <SelectField field="AvgMonthSales" selected="True" type="Double" size="8" />
+            <SelectField field="Street 1" selected="False" />
+            <SelectField field="Street 2" selected="False" />
+            <SelectField field="Street 3" selected="False" />
+            <SelectField field="Latitude" selected="False" />
+            <SelectField field="Longitude" selected="False" />
+            <SelectField field="Timezone" selected="False" />
+            <SelectField field="Current Timezone Offset" selected="False" />
+            <SelectField field="Olson Timezone" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="906" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>CountDistinctNonNull_NewProductFlag</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-06-30 00:31:08</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2020-06-30 00:31:08</StartDate>
+              <EndDate>2020-06-30 00:31:08</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[CountDistinctNonNull_NewProductFlag] != 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1002" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="AvgMonthSales" action="GroupBy" rename="AvgMonthSales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1002" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Week" action="GroupBy" rename="Week" />
+            <SummarizeField field="Startweek" action="GroupBy" rename="Startweek" />
+            <SummarizeField field="Endweek" action="GroupBy" rename="Endweek" />
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Invoice Number" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1218" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\Weekly_invoice_01.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weekly_invoice_01.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sq_Ft" selected="True" type="Int64" size="8" />
+            <SelectField field="AvgMonthSales" selected="True" rename="Test_sales" type="Double" size="8" />
+            <SelectField field="Latitude" selected="False" />
+            <SelectField field="Longitude" selected="False" />
+            <SelectField field="Timezone" selected="False" />
+            <SelectField field="Current Timezone Offset" selected="False" />
+            <SelectField field="Olson Timezone" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1098" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="True" rename="Right_StoreID" input="Right_" />
+                <SelectField field="Right_Region" selected="True" rename="Right_Region" input="Right_" />
+                <SelectField field="Right_AvgMonthSales" selected="True" rename="Right_AvgMonthSales" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1194" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'CC'" field="Test" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Test = 'CC'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1290" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="318" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="True" rename="Right_StoreID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Invoice Number" selected="True" />
+            <Field field="Invoice Date" selected="True" />
+            <Field field="SKU" selected="True" />
+            <Field field="Category" selected="True" />
+            <Field field="Product" selected="True" />
+            <Field field="QTY" selected="True" />
+            <Field field="Size" selected="True" />
+            <Field field="Gross Margin" selected="True" />
+            <Field field="Sales" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="Int16" />
+            <Field name="Invoice Number" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="Int32" />
+            <Field name="Invoice Date" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="SKU" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="Int16" />
+            <Field name="Category" size="8" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="String" />
+            <Field name="Product" size="18" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="Byte" />
+            <Field name="Size" size="3" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="String" />
+            <Field name="Gross Margin" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\RoundRoastersTransactions.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Sq_Ft" selected="True" />
+            <Field field="AvgMonthSales" selected="True" />
+            <Field field="Right_Name" selected="True" />
+            <Field field="Phone Number" selected="True" />
+            <Field field="Street Combined" selected="True" />
+            <Field field="Street 1" selected="True" />
+            <Field field="Street 2" selected="True" />
+            <Field field="Street 3" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Postal Code" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="Coordinates" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Timezone" selected="True" />
+            <Field field="Current Timezone Offset" selected="True" />
+            <Field field="Olson Timezone" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="Sq_Ft" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="AvgMonthSales" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="Int32" />
+            <Field name="Right_Name" size="35" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Phone Number" size="14" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="String" />
+            <Field name="Street Combined" size="68" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="33" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 2" size="16" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="Street 3" size="31" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="City" size="17" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="V_String" />
+            <Field name="State" size="2" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="String" />
+            <Field name="Postal Code" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="Int32" />
+            <Field name="Region" size="7" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="String" />
+            <Field name="Country" size="2" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="String" />
+            <Field name="Coordinates" size="37" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="String" />
+            <Field name="Latitude" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="Double" />
+            <Field name="Timezone" size="25" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="String" />
+            <Field name="Current Timezone Offset" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="Int16" />
+            <Field name="Olson Timezone" size="29" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\round-roaster-stores (1).csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StoreID" selected="True" />
+            <Field field="Sq_Ft" selected="True" />
+            <Field field="AvgMonthSales" selected="True" />
+            <Field field="Phone Number" selected="True" />
+            <Field field="Street Combined" selected="True" />
+            <Field field="Street 1" selected="True" />
+            <Field field="Street 2" selected="True" />
+            <Field field="Street 3" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="Postal Code" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="Coordinates" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Timezone" selected="True" />
+            <Field field="Current Timezone Offset" selected="True" />
+            <Field field="Olson Timezone" selected="True" />
+            <Field field="Name" selected="True" />
+            <Field field="Right_State" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="Int16" />
+            <Field name="Sq_Ft" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="Int16" />
+            <Field name="AvgMonthSales" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="Int16" />
+            <Field name="Phone Number" size="14" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="String" />
+            <Field name="Street Combined" size="42" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 1" size="26" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Street 2" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="Byte" />
+            <Field name="Street 3" size="25" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="String" />
+            <Field name="City" size="16" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="Int32" />
+            <Field name="Region" size="7" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="String" />
+            <Field name="Country" size="2" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="String" />
+            <Field name="Coordinates" size="37" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="String" />
+            <Field name="Latitude" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="Double" />
+            <Field name="Timezone" size="22" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="String" />
+            <Field name="Current Timezone Offset" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="Int16" />
+            <Field name="Olson Timezone" size="25" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="String" />
+            <Field name="Name" size="28" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="V_String" />
+            <Field name="Right_State" size="2" source="File: C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\treatment-stores (1).csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1086" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="Week" action="GroupBy" rename="Week" />
+            <SummarizeField field="Startweek" action="GroupBy" rename="Startweek" />
+            <SummarizeField field="Endweek" action="GroupBy" rename="Endweek" />
+            <SummarizeField field="Sum_Sales" action="Sum" rename="Sum_Sum_Sales" />
+            <SummarizeField field="Sum_Gross Margin" action="Sum" rename="Sum_Sum_Gross Margin" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1266" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\Weekly_salse_01.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weekly_salse_01.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1386" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\Saow\Desktop\Mashael_Data\p5-project-files\Union_store_01.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Union_store_01.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1098" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Saow\AppData\Local\Temp\Engine_5520_68ec9288052b4138a4118c95e37df331_\Engine_21760_092ab775c09c470fb8c3f7b22732a97e_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Saow\AppData\Local\Temp\Engine_5520_68ec9288052b4138a4118c95e37df331_\Engine_21760_04030426e8eb426fafb8ef67cdc82a63_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="534" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Week" action="CountDistinct" rename="CountDistinct_Week" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="606" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>CountDistinct_Week</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-07-01 18:29:17</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>76</Operand>
+              <StartDate>2020-07-01 18:29:17</StartDate>
+              <EndDate>2020-07-01 18:29:17</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[CountDistinct_Week] = 76</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="714" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="True" rename="Right_StoreID" input="Right_" />
+                <SelectField field="Right_Right_StoreID" selected="True" rename="Right_Right_StoreID" input="Right_" />
+                <SelectField field="Right_Longitude" selected="False" input="Right_" />
+                <SelectField field="Right_Current Timezone Offset" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="33" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="33" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Left" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Workflow_AB_Clean_Data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
